@@ -28,3 +28,11 @@ print(list_of_cloud)
 print("The first cloud provider is:", list_of_cloud[0])
 print("The cloud provider at index 2 is:", list_of_cloud[2])
 print("The last cloud provider is:", list_of_cloud[-1])
+
+#iteration
+for cloud in list_of_cloud:
+    print(cloud)
+
+
+for i in range(0, 11):
+    print(i)
