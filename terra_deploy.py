@@ -39,7 +39,7 @@ def terraform_destroy(directory):
         sys.exit(1)
 
 def main():
-    directory = "path/to/your/terraform/directory"  # Change this to your Terraform directory path
+    directory = "C:\Users\visha\OneDrive\Desktop\python-workshop-practice\terra-automate\terraform"
     print("Starting Terraform operations...")
     terraform_init(directory)
     
